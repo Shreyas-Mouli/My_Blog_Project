@@ -169,13 +169,11 @@ def show_post(post_id):
 
 
 @app.route("/about")
-@login_required
 def about():
     return render_template("about.html")
 
 
 @app.route("/contact")
-@login_required
 def contact():
     return render_template("contact.html")
 
